@@ -1,2 +1,4 @@
 # responsiveChallenge
-Conquering Responsive Layouts by Kevin Powell Challenge 
+Learning more about responsiveness. Check it out below!
+
+<a href="https://courses.kevinpowell.co/conquering-responsive-layouts">Conquering Responsive Layouts</a>  by Kevin Powell.
