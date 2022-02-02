@@ -1,3 +1,35 @@
 * {
     box-sizing: border-box;
 }
+
+body {
+    margin: 0;
+  }
+
+.info-container {
+    background-color: #23424a;
+    color: white;
+}
+
+.responsive-info {
+    font-size: 48px;
+}
+
+.container {
+    width: 80%;
+    max-width: 750px; 
+    margin: 0 auto;
+    padding: 50px 0;
+}
+
+.more-content {
+    font-size: 21px;
+}
+
+.learnBtn{
+    color: black;
+    font-size: 21px;
+    background-color: #38cfd9;
+    padding: 15px;
+    border-radius: 25px;
+}
