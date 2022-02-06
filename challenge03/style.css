@@ -24,13 +24,15 @@ body {
 
 .more-content {
     font-size: 21px;
+    margin-bottom: 4em;
 }
 
 .learnBtn{
+    display: inline-block;
     color: black;
     font-size: 21px;
     background-color: #38cfd9;
-    padding: 15px;
+    padding: 0.5em 2em;
     border-radius: 32px;
     text-transform: uppercase;
     text-decoration: none;
