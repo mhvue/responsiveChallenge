@@ -87,6 +87,9 @@ h1 {
     opacity: .75; 
 }
 
+
+/* my solution
+
 .secondRow {
     margin-top: 30px;
     background-color: #136C72;
@@ -96,6 +99,16 @@ h1 {
     text-align: center;
     padding: 30px;
     color: white;
+} */
+
+/* kevin solution */
+.secondRow {
+    width: 32%;
+    background-color: #136C72;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
 }
 
 .col {
@@ -105,4 +118,5 @@ h1 {
 .quality__text h1 {
     color:#136C72;
     padding-top: 1em;
+   
 }
