@@ -8,7 +8,6 @@ body {
 
 .container {
     margin: 0 auto;
-    padding: 50px;
 }
 
 .container-title-text {
@@ -52,3 +51,27 @@ body {
     margin-left: 2em;
 }
 
+.custom-content, .care-content {
+    display: flex;
+}
+
+.container-custom {
+    background-color: black;
+    color: white;
+    padding: 1em;
+    font-size: ;
+
+}
+
+.custom-content h3 {
+    font-size: 36px;
+    padding: 1em;
+}
+
+
+
+.container-care {
+    background-color: #824936;
+    color: white;
+    font-size: 21px;
+}
