@@ -1,0 +1,27 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+  }
+
+.container {
+    border: 2px solid yellow;
+    background-color: #f3eed9;
+    padding: 4em;
+}
+
+.responsive-title-text {
+    width: 50%;
+    border: 2px solid red;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.responsive-title-text h1{
+    margin-top: 0;
+    color: #b24936;
+    font-size: 60px;
+}
+
