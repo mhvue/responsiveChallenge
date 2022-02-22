@@ -7,14 +7,12 @@ body {
   }
 
 .container {
-    border: 2px solid yellow;
     background-color: #f3eed9;
     padding: 4em;
 }
 
 .responsive-title-text {
     width: 50%;
-    border: 2px solid red;
     margin: 0 auto;
     text-align: center;
 }
@@ -23,5 +21,14 @@ body {
     margin-top: 0;
     color: #b24936;
     font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    line-height: 80%;
+}
+
+.responsive-title-short-text {
+    font-size: 18px;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 4px;
+    ;
 }
 
