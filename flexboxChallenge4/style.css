@@ -6,8 +6,8 @@ body {
     margin: 0;
   }
 
-.container {
-    margin: 0 auto;
+.quality-container {
+    padding: 4em;
 }
 
 .container-title-text {
@@ -43,28 +43,22 @@ body {
 }
 
 .quality-content {
-    display: flex;
     font-size: 21px;
 }
 
-.col + .col {
-    margin-left: 2em;
-}
 
-.custom-content, .care-content {
+.custom-content, .care-content, .quality-content{
     display: flex;
 }
 
 .container-custom {
     background-color: black;
     color: white;
-    padding: 1em;
-
+    padding: 4em;
 }
 
 .custom-content h3 {
     font-size: 36px;
-    padding: 1em;
 }
 
 
@@ -73,4 +67,17 @@ body {
     background-color: #824936;
     color: white;
     font-size: 21px;
+}
+
+.col + .col {
+    margin-left: 2em;
+}
+
+.col {
+    width: 50%;
+}
+
+.custom-content .col {
+    font-size: 21px;
+    padding: 1em;
 }
