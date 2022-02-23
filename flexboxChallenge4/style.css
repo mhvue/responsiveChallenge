@@ -57,7 +57,7 @@ body {
     padding: 4em;
 }
 
-.custom-content h3 {
+.custom-title, .care-title {
     font-size: 36px;
 }
 
