@@ -137,13 +137,14 @@ header {
 }
 
 .nav__item {
-    margin-top: 1em;
-    text-align: center;
+    margin-top: 2em;
+    margin-right: 2em;
 }
 
 .nav__link{
     color: white;
     text-decoration: none;
+    text-transform: uppercase;
 }
 
 .nav__link--button {
@@ -189,7 +190,11 @@ header {
 
 
 @media (min-width: 800px) {
+    .row {
+        display: flex;
+       justify-content: space-between;
 
+    }
     
     .nav-toggle {
         display: none;
@@ -199,13 +204,20 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
-    }
-
-    .row {
-        display: flex;
         justify-content: space-between;
-
     }
+
+    .nav__list {
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+
+    .nav__item {
+        align-items: flex-start;
+    }
+
+
 
     .hero__text {
         width: 62%;
