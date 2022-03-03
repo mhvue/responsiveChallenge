@@ -132,6 +132,26 @@ header {
     position: relative;
 } 
 
+.nav__list {
+    list-style: none;
+}
+
+.nav__item {
+    margin-top: 1em;
+    text-align: center;
+}
+
+.nav__link{
+    color: white;
+    text-decoration: none;
+}
+
+.nav__link--button {
+    background-color: white;
+    border-radius: 100px;
+    color: #136c72;
+}
+
 
 .logo {
     height: 30px;
