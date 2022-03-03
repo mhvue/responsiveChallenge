@@ -137,7 +137,7 @@ header {
 }
 
 .nav__item {
-    margin-top: 2em;
+    margin-top: .5em;
     margin-right: 2em;
 }
 
@@ -151,6 +151,11 @@ header {
     background-color: white;
     border-radius: 100px;
     color: #136c72;
+    padding: 0.5em;
+}
+
+.nav__list--secondary {
+    margin-top: 2em;
 }
 
 
@@ -190,12 +195,7 @@ header {
 
 
 @media (min-width: 800px) {
-    .row {
-        display: flex;
-       justify-content: space-between;
-
-    }
-    
+ 
     .nav-toggle {
         display: none;
     }
@@ -204,6 +204,7 @@ header {
         visibility: visible;
         display: flex;
         height: auto;
+        align-items: center;
         justify-content: space-between;
     }
 
@@ -213,8 +214,20 @@ header {
         padding: 0;
     }
 
+    .nav__list--primary {
+       margin: 0 auto;
+    }
+
+    .row {
+        display: flex;
+       justify-content: space-between;
+
+    }
+    
+
     .nav__item {
-        align-items: flex-start;
+        margin: 0;
+        margin-left: 1em;
     }
 
 
