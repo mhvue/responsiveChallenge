@@ -225,8 +225,7 @@ header {
     
 
     .nav__item {
-        margin: 0;
-        margin-left: 1em;
+        margin: 0 0 1em 0;
     }
 
 
