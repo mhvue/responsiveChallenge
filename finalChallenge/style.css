@@ -5,3 +5,42 @@
 body {
     margin: 0;
 }
+
+.container {
+    margin: 0 auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+header {
+    background-color: #2E323F;
+}
+
+.logo {
+    width: 10%;
+}
+
+.nav {
+    display: flex;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-item {
+    color: #fff;
+    margin-left: 1em;
+}
+
+.nav-secondary {
+    margin-left: 1em;
+}
+
+.sign-up-btn {
+    background-color: #A59678;
+}
