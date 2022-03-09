@@ -21,7 +21,7 @@ header {
 
 .logo {
     width: 10%;
-}
+ }
 
 .nav {
     display: flex;
@@ -30,11 +30,13 @@ header {
 .nav-list {
     display: flex;
     list-style: none;
+    font-size: 18px;
 }
 
 .nav-item {
     color: #fff;
     margin-left: 1em;
+    font-family: "Oswald", sans-serif;
 }
 
 .nav-secondary {
@@ -43,4 +45,6 @@ header {
 
 .sign-up-btn {
     background-color: #A59678;
+    border-radius: 100px;
+    padding: .25em;
 }
