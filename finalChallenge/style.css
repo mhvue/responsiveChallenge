@@ -25,10 +25,6 @@ header, .col {
     width: 20%;
  }
 
-.nav {
-    display: flex;
-}
-
 .nav-list {
     display: flex;
     list-style: none;
@@ -53,7 +49,7 @@ header, .col {
 
 
 h1 {
-    font-size: 90px;
+    font-size: 4em;
     margin: 0;
     font-family: "Oswald", sans-serif;
     line-height: 100%;
@@ -83,7 +79,7 @@ h1.first-header {
      background-color: #A59678;
      border-radius: 100px;
      text-transform: uppercase;
-     font-size: 24px;
+     font-size: 20px;
      font-family: "Oswald", sans-serif;
      display: inline-block;
      margin-bottom: 1em;
@@ -92,7 +88,7 @@ h1.first-header {
  h3 {
      font-size: 30px;
      color: #A59678;
-     
+     text-align: center;
  }
 
  .infoSecond-div {
@@ -101,4 +97,29 @@ h1.first-header {
  }
 .infoSecond-p {
      font-size: 18px;
+     text-align: center;
+}
+
+.col  {
+    color: white;
+}
+
+.infoThird-div{
+    background-color: #fff;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.blueBack {
+    background-color:#2E323F ;
+    color:white;
+    padding: 1em;
+    margin-top: 1em;
+}
+
+.blueBack h5 {
+    font-weight: 900;
 }
