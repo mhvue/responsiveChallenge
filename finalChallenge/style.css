@@ -93,7 +93,11 @@ h1.first-header {
      color: #A59678;
      
  }
- .infoSecond-p {
-     font-size: 18px;
-     
+
+ .infoSecond-div {
+     background-color: lightgray;
+     padding: 1em;
  }
+.infoSecond-p {
+     font-size: 18px;
+}
