@@ -17,7 +17,7 @@ body {
     justify-content: space-between;
 }
 
-header, .col {
+header {
     background-color: #2E323F;
 }
 
@@ -55,10 +55,10 @@ h1 {
     line-height: 100%;
 }
 
-h1.first-header {
+h1.first-title {
     color: #fff;
 }
- h1.second-header {
+ h1.second-title {
      color:#A59678 
  }
 
@@ -95,22 +95,35 @@ h1.first-header {
      background-color: lightgray;
      padding: 1em;
  }
-.infoSecond-p {
+
+ .infoSecond h3 {
+     font-size: 36px;
+     font-family: "Oswald", sans-serif;
+
+ }
+.infoSecond-p, .infoThird-secondary {
      font-size: 18px;
      text-align: center;
+     font-family: 'Montserrat', sans-serif;
 }
 
-.col  {
-    color: white;
-}
 
 .infoThird-div{
     background-color: #fff;
     align-items: center;
 }
 
+
 img {
     width: 100%;
+}
+
+.infoThird-primary h3{
+    font-size: 36px;
+}
+
+.infoThird-primary {
+    font-size: 21px;
 }
 
 .blueBack {
@@ -120,6 +133,25 @@ img {
     margin-top: 1em;
 }
 
-.blueBack h5 {
-    font-weight: 900;
+.blueBack h3 {
+    color: white;
+}
+
+
+h2 {
+    font-size: 24px;
+    color: white;
+}
+
+.div-footer {
+    background-color:#2E323F
+    
+}
+
+.div-footer h5 {
+    font-size: 21px;
+}
+
+.div-footer p {
+    font-size: 16px;
 }
