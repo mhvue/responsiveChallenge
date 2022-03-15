@@ -64,7 +64,7 @@ h1.first-title {
 
  .header-info {
      background-color: #6f737f;
-     padding: 1em;
+     padding-top: 1em;
  }
 
  .info-p {
@@ -141,17 +141,26 @@ img {
 h2 {
     font-size: 24px;
     color: white;
+    font-family: "Oswald", sans-serif;
+
 }
 
 .div-footer {
-    background-color:#2E323F
-    
+    background-color:#2E323F;
+    color: white;
+    text-align: center;
 }
 
 .div-footer h5 {
     font-size: 21px;
+    color: #A59678;
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+
 }
 
 .div-footer p {
     font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+
 }
