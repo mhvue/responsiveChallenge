@@ -179,7 +179,7 @@ h2 {
         padding-bottom: 2em;
     }
 
-    .headerDiv, .second-section, .third-section {
+    .headerDiv, .second-section, .third-section, .footer-section {
         display: flex;
     }
 
@@ -198,6 +198,12 @@ h2 {
 
     .blueBack {
         margin-left: 1em;
+    }
+
+    .div-footer p {
+        text-align: left;
+        line-height: 3;
+        margin-right: 1em;
     }
     
 }
