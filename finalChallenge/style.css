@@ -164,3 +164,40 @@ h2 {
     font-family: 'Montserrat', sans-serif;
 
 }
+
+/*media queries*/
+@media (max-width:700px){
+
+    .row {
+        align-items: flex-end;
+    }
+    .nav {
+        display: flex;
+    }
+
+    .header-info {
+        padding-bottom: 2em;
+    }
+
+    .headerDiv, .second-section, .third-section {
+        display: flex;
+    }
+
+    .info-div {
+        width: 100%;
+        margin-left: 2em;
+    }
+
+    .infoSecond-p {
+        margin-left: 1em;
+    }
+
+    .infoSecond-p h3  {
+        margin: 0;
+    }
+
+    .blueBack {
+        margin-left: 1em;
+    }
+    
+}
