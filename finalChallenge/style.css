@@ -159,9 +159,10 @@ h2 {
 
 }
 
-.div-footer p {
+li {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
 
 }
 
@@ -201,9 +202,28 @@ h2 {
     }
 
     .div-footer p {
-        text-align: left;
         line-height: 3;
-        margin-right: 1em;
+    }
+
+    li {
+        line-height: 3;
     }
     
+    ul {
+        padding: 0;
+
+    }
+
+    .div-footer {
+        text-align: left;
+    }
+
+    .footer-info {
+        margin-right: 3em;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
 }
