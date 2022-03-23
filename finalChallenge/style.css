@@ -115,7 +115,7 @@ h1.first-title {
 
 
 img {
-    width: 100%;
+    width: 20%;
 }
 
 .infoThird-primary h3{
@@ -159,6 +159,10 @@ h2 {
 
 }
 
+ul {
+    padding: 0;
+}
+
 li {
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
@@ -167,7 +171,7 @@ li {
 }
 
 /*media queries*/
-@media (max-width:700px){
+@media (min-width:700px){
 
     .row {
         align-items: flex-end;
@@ -226,4 +230,17 @@ li {
         text-align: center;
     }
 
+    .learn-more-btn {
+        padding: .5em .75em .5em .75em;
+    }
+
+    .sign-up-btn {
+        padding: 0 0.5em 0 0.5em;
+    }
+    
+    .second-section {
+        justify-content: flex-start;
+    }
+
+   
 }
