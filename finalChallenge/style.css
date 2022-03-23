@@ -114,9 +114,7 @@ h1.first-title {
 }
 
 
-img {
-    width: 20%;
-}
+
 
 .infoThird-primary h3{
     font-size: 36px;
@@ -170,12 +168,18 @@ li {
 
 }
 
+img {
+    width: 100%;
+}
+
+a {
+    margin: auto 0;
+}
+
 /*media queries*/
 @media (min-width:700px){
 
-    .row {
-        align-items: flex-end;
-    }
+
     .nav {
         display: flex;
     }
